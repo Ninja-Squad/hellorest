@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloController {
 
-  @RequestMapping(method = RequestMethod.GET, value = "/{name}")
-  public String sayHello(@PathVariable("name") String name) {
-      return name + "! You are a ninja! Your first REST service is consumed!";
-  }
+    @RequestMapping(method = RequestMethod.GET, value = "/{name}")
+    public String sayHello(@PathVariable("name") String name) {
+        return "Hello " + name + "! You are now a ninja, consuming RESTful webservices!";
+    }
 
 }

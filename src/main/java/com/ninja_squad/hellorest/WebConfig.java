@@ -11,10 +11,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 @ComponentScan(basePackages = "com.ninja_squad.hellorest.controller")
 public class WebConfig extends WebMvcConfigurerAdapter {
 
-  @Override
-  public void configureDefaultServletHandling(
-      DefaultServletHandlerConfigurer configurer) {
-    configurer.enable();
-  }
+    @Override
+    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+        configurer.enable();
+    }
 
 }

@@ -22,27 +22,26 @@ import com.ninja_squad.hellorest.WebConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
-@ContextConfiguration(classes = { AppConfig.class, WebConfig.class })
+@ContextConfiguration(classes = {AppConfig.class, WebConfig.class})
 public class HelloControllerTest {
 
-  @Autowired
-  private WebApplicationContext wac;
-  private MockMvc mockMvc;
+    @Autowired
+    private WebApplicationContext wac;
+    private MockMvc mockMvc;
 
-  @Before
-  public void setup() throws Exception {
-    mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
-  }
+    @Before
+    public void setup() throws Exception {
+        mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
+    }
 
-  @Test
-  public void getNextRuntime() throws Exception {
-    String name = "Test";
-    mockMvc
-        .perform(get("/hello/{name}", name).accept(MediaType.APPLICATION_JSON))
-        .andDo(print())
-        .andExpect(status().isOk())
-        .andExpect(
-            content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
-        .andExpect(content().string(name + "! You are a ninja! Your first REST service is consumed!"));
-  }
+    @Test
+    public void sayHelloByREST() throws Exception {
+        String name = "Test";
+        mockMvc
+                .perform(get("/hello/{name}", name).accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(
+                        content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
+                .andExpect(content().string("Hello " + name + "! You are now a ninja, consuming RESTful webservices!"));
+    }
 }
