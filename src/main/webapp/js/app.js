@@ -22,7 +22,6 @@ var App = angular.module('App', []);
         $scope.priorities = ['DEFAULT', 'LOW', 'HIGH'];
         $scope.tasks = [];
 
-
         $scope.initNewTask = function() {
             $scope.newTask = {
                 label: '',
@@ -43,6 +42,8 @@ var App = angular.module('App', []);
                     $scope.refreshTasks();
                 });
         };
+
+        $scope.initNewTask();
 
         // Fetch existing tasks at loading
         $scope.refreshTasks();
