@@ -49,4 +49,31 @@ var App = angular.module('App', []);
         $scope.refreshTasks();
     }]);
 
+        $scope.initNewTask = function() {
+            $scope.newTask = {
+                label: '',
+                priority: 'DEFAULT'
+            };
+        };
+
+        $scope.refreshTasks = function() {
+            $http.get('tasks').then(function(response) {
+                $scope.tasks = response.data;
+            });
+        };
+
+        $scope.addTask = function () {
+            $http.post('tasks', $scope.newTask)
+                .then(function () {
+                    $scope.initNewTask();
+                    $scope.refreshTasks();
+                });
+        };
+
+        $scope.initNewTask();
+
+        // Fetch existing tasks at loading
+        $scope.refreshTasks();
+    }]);
+
 })();
