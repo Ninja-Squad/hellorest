@@ -20,10 +20,10 @@ public class ToDoController {
         tasks.add(task);
         return task;
     }
-
+    
     @RequestMapping(method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
     public List<ToDoTask> list() {
         return tasks;
     }
-
 }

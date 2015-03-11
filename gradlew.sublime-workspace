@@ -1,0 +1,275 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"MOY",
+				"MOYGEN"
+			],
+			[
+				"NUMST",
+				"NUMSTAGIAIRE"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"v_nb",
+				"v_nb_mod_ctrl"
+			],
+			[
+				"DATE",
+				"DATECONTROLE"
+			],
+			[
+				"code_",
+				"code_siret"
+			],
+			[
+				"nu",
+				"numero_stagiaire"
+			],
+			[
+				"delete",
+				"delete_samba_user"
+			],
+			[
+				"return",
+				"returnValue"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"YAML",
+				"Set Syntax: YAML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"packis",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 520.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/BD/TP2/tp2_trigger.sql",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/English/The Project/ABEC/AnotherBoringEncryptedChat/presentation/index.html",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/English/The Project/ABEC/AnotherBoringEncryptedChat/reveal.js-master/index.html",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/travis_test/Hello.js",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/travis_test/package.json",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/travis_test/Gruntfile.js",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/travis_test/.travis.yml",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/Mockito/TestMockito/.gitignore",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/travis/index.html",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/travis/.travis.yml",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/Mockito/TestMockito/.travis.yml",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/Recette et tests/travis_test/.gitignore",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/SublimeText/Data/Packages/User/Preferences.sublime-settings",
+		"/F/Réseau/TP3/tp3.md",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/NoSQL/tp1.js",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Bureau/npm.cmd",
+		"/F/LPDASI/Cours/SQL/trigger_contrainte.sql",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/BD/TP4/tp4_1_correction.sql",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/BD/TP2/TP2.sql",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/BD/TP2/TP2_EXO4.sql",
+		"/F/Réseau/TP2/TP2.md",
+		"/F/le reste/Dev/interface_web_outils/js/script2.js",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/BD/TP4/tp4.sql",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/BD/TP3/rapport.sql",
+		"/F/LPDASI/Cours/SQL/tp4.sql",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/English/TeamPlanning/getMysql.php",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/English/TeamPlanning/testBD.php",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/English/try-git/index.html",
+		"/F/script/etc/exports",
+		"/F/script/config_samba.txt",
+		"/F/script/delete_samba_user.pl",
+		"/F/script/mod_user.sh",
+		"/F/script/add_users.sh",
+		"/F/script/etc/hosts",
+		"/F/script/default.useradd",
+		"/F/script/csv.txt",
+		"/F/script/network",
+		"/F/script/iptables",
+		"/F/script/smb.conf",
+		"/F/script/ifcfg-ens33",
+		"/F/script/fstab",
+		"//univ-lyon1/enseignement/homes/q/p1413739/Mes documents/Cours/BD/TP4/trigger_contrainte.sql",
+		"/C/Users/p1413739/AppData/Local/Temp/688",
+		"/F/TP Admin UNIX/script/add_users.sh",
+		"/D/Programmes/SublimeText/Data/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0",
+			"255",
+			"dépendances",
+			"\"",
+			"resultcont",
+			"INTO",
+			"1003",
+			"resizeLogin",
+			"é"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"1005"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "gradlew.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
