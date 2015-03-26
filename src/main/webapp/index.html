@@ -1,57 +1,73 @@
 <!DOCTYPE html>
 <html ng-app="App">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-</head>
-<body>
+        <style> 
+            .glyphicon-remove:hover{
+                color: red;
+            }
 
-    <div class="container">
+            .glyphicon-pencil:hover{
+                color:blue;
+            }
+        </style>
 
-        <h1>Consommer un Service REST en GET</h1>
-        <form ng-controller="HelloCtrl">
-            <div class="form-group>">
-                <input type="text" class="form-control"  ng-model="name" placeholder="Votre nom"></input>
-            </div>
-            <input type="submit" class="btn btn-primary" ng-click="getMessage()" value="Submit" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    </head>
+    <body>
 
-            <blockquote ng-if="message">{{message}}</blockquote>
-        </form>
+        <div class="container">
 
-        <h1>Consommer un service REST en POST</h1>
+            <h1>Consommer un Service REST en GET</h1>
+            <form ng-controller="HelloCtrl">
+                <div class="form-group>">
+                    <input type="text" class="form-control"  ng-model="name" placeholder="Votre nom"></input>
+                </div>
+                <input type="submit" class="btn btn-primary" ng-click="getMessage()" value="Submit" />
 
-        <form ng-controller="ToDoCtrl">
+                <blockquote ng-if="message">{{message}}</blockquote>
+            </form>
 
-            <div class="form-group>">
-                <input type="text" class="form-control col-md-6" ng-model="newTask.label" placeholder="Libellé de la tâche"></input>
-            </div>
-            <div class="form-group>">
-                <select class="form-control col-md-6" ng-model="newTask.priority" ng-options="priority for priority in priorities" />
-            </div>
-            <input type="submit" class="btn btn-primary" ng-click="addTask()" value="Submit" />
-            <input type="reset" class="btn btn-default" ng-click="initNewTask()" value="Effacer" />
-        </form>
+            <h1>Consommer un service REST en POST</h1>
 
-        <table class="table">
-            <thead>
-            <th>Priorité</th>
-            <th>Libellé</th>
-            </thead>
-            <tbody>
-            <tr ng-repeat="task in tasks">
-                <td>{{ task.priority }}</td>
-                <td>{{ task.label }}</td>
-            </tr>
-            </tbody>
-        </table>
+            <form ng-controller="ToDoCtrl">
 
-    </div>
+                <div class="form-group>">
+                    <input type="text" class="form-control col-md-6 mainInputText" ng-model="newTask.label" placeholder="Libellé de la tâche"></input>
+                </div>
+                <div class="form-group>">
+                    <select class="form-control col-md-6 mainPriority" ng-model="newTask.priority" ng-options="priority for priority in priorities" />
+                </div>
+                <input type="submit" class="btn btn-primary" ng-click="addTask()" value="Submit" />
+                <input type="reset" class="btn btn-default" ng-click="initNewTask()" value="Effacer" />
+            </form>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular.js"></script>
-    <script src="js/app.js"></script>
-</body>
+            <table class="table">
+                <thead>
+                <th>Priorité</th>
+                <th>Libellé</th>
+                <th>ID</th>
+                <th>Supprimer</th>
+                <th>Modifier</th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="task in tasks">
+                        <td>{{ task.priority}}</td>
+                        <td>{{ task.label}}</td>
+                        <td>{{ task.id}} </td>
+                        <td><span ng-click="remove(task.id)" class="glyphicon glyphicon-remove remove"></span></td>
+                        <td><span ng-click="edit(task.id)" class="glyphicon glyphicon-pencil edit"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.11/angular.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>

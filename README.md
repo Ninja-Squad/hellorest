@@ -1,5 +1,4 @@
-HelloWorldSpring4
-=================
+Hello Rest
 
 Hello World application using Spring 4 and Gradle.
 
