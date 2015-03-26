@@ -40,7 +40,7 @@ public class ServletInitializer extends
         charFilter.setEncoding("UTF-8");
         charFilter.setForceEncoding(true);
         return new Filter[]{new HiddenHttpMethodFilter(), charFilter,
-                new HttpPutFormContentFilter()};
+            new HttpPutFormContentFilter()};
     }
 
 }

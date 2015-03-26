@@ -41,7 +41,7 @@ public class TodoControllerTest {
     public void addTask() throws Exception {
 
         ToDoTask task = new ToDoTask("test");
-        task.setPriority(Priority.HIGH);
+        task.priority = Priority.HIGH;
 
         mockMvc.perform(post("/tasks").content(objectMapper.writeValueAsBytes(task))
                 .contentType(MediaType.APPLICATION_JSON))

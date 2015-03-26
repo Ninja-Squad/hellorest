@@ -6,8 +6,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
         <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/controller/HelloController.java</file>
+        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/AppConfig.java</file>
+        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/test/java/com/ninja_squad/hellorest/controller/TodoControllerTest.java</file>
         <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/webapp/index.html</file>
         <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/test/java/com/ninja_squad/hellorest/controller/HelloControllerTest.java</file>
+        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/config/ServletInitializer.java</file>
+        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/WebConfig.java</file>
         <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/controller/ToDoController.java</file>
         <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/model/ToDoTask.java</file>
         <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/webapp/js/app.js</file>
@@ -16,12 +20,10 @@
     <editor-bookmarks lastBookmarkId="0" xmlns="http://www.netbeans.org/ns/editor-bookmarks/2"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
-        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/controller/HelloController.java</file>
-        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/webapp/index.html</file>
+        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/AppConfig.java</file>
+        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/test/java/com/ninja_squad/hellorest/controller/TodoControllerTest.java</file>
+        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/WebConfig.java</file>
         <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/test/java/com/ninja_squad/hellorest/controller/HelloControllerTest.java</file>
-        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/controller/ToDoController.java</file>
-        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/java/com/ninja_squad/hellorest/model/ToDoTask.java</file>
-        <file>file://univ-lyon1/enseignement/homes/q/p1413739/Mes%20documents/Cours/Archi%20n-tier/hellorest-iut/src/main/webapp/js/app.js</file>
       </group>
     </open-files>
   </auxiliary>
