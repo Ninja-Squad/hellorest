@@ -21,9 +21,9 @@ repositories {
 }
 
 ext {
-  jacksonVersion="2.3.2"
-  springVersion="4.1.2.RELEASE"
-  tomcatVersion="7.0.50"
+    jacksonVersion="2.3.2"
+    springVersion="4.1.2.RELEASE"
+    tomcatVersion="7.0.50"
 }
 
 dependencies {
@@ -44,9 +44,9 @@ dependencies {
     compile "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
     compile "com.fasterxml.jackson.core:jackson-annotations:$jacksonVersion"
 
-  testCompile "junit:junit:4.11"
-  testCompile "org.springframework:spring-test:$springVersion"
-  testCompile "com.jayway.jsonpath:json-path:1.2.0"
+    testCompile "junit:junit:4.11"
+    testCompile "org.springframework:spring-test:$springVersion"
+    testCompile "com.jayway.jsonpath:json-path:1.2.0"
 
     tomcat "org.apache.tomcat.embed:tomcat-embed-core:$tomcatVersion",
             "org.apache.tomcat.embed:tomcat-embed-logging-juli:$tomcatVersion"
